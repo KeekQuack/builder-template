@@ -5,7 +5,7 @@ import DefaultErrorPage from "next/error";
 import Head from "next/head";
 
 // Replace with your Public API Key
-builder.init("b10d7f93bcc84c84a8bb7caf601224ff");
+builder.init(process.env.BUILDER_PUBLIC_KEY);
 
 // Define a function that fetches the Builder
 // content for a given page
